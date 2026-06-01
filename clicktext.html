@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Quiz JSON</title>
+</head>
+<body>
+
+<h2>JSON</h2>
+
+<textarea id="jsonInput" rows="15" cols="100">
+{
+  "text": "Le coeur pompe le sang et les poumons assurent les échanges gazeux.",
+  "elements": [
+    {
+      "label": "coeur",
+      "questions": [
+        "Quel est son rôle ?",
+        "Combien de cavités possède-t-il ?"
+      ]
+    },
+    {
+      "label": "poumons",
+      "questions": [
+        "Quelle est leur fonction principale ?"
+      ]
+    }
+  ]
+}
+</textarea>
+
+<br><br>
+
+<button onclick="loadQuiz()">Charger</button>
+
+<hr>
+
+<div id="quizText"></div>
+
+<hr>
+
+<div id="questionsContainer"></div>
+
+<br>
+
+<button onclick="exportTXT()">Submit</button>
+
+<script>
+let quizData = null;
+let answers = {};
+
+function escapeRegExp(str) {
+    return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function loadQuiz() {
+    try {
+        quizData = JSON.parse(
+            document.getElementById("jsonInput").value
+        );
+
+        answers = {};
+
+        let text = quizData.text;
+
+        quizData.elements.forEach((element, index) => {
+            const regex = new RegExp(
+                escapeRegExp(element.label),
+                "g"
+            );
+
+            text = text.replace(
+                regex,
+                `<a href="#" onclick="openQuestions(${index});return false;">${element.label}</a>`
+            );
+        });
+
+        document.getElementById("quizText").innerHTML = text.replace(/\n/g, "<br>");
+        document.getElementById("questionsContainer").innerHTML = "";
+
+    } catch (e) {
+        alert("JSON invalide");
+    }
+}
+
+function openQuestions(index) {
+    const element = quizData.elements[index];
+
+    let html = `
+        <fieldset>
+            <legend>${element.label}</legend>
+    `;
+
+    element.questions.forEach((question, qIndex) => {
+
+        const id = `e${index}_q${qIndex}`;
+
+        html += `
+            <p>${question}</p>
+            <input type="text"
+                   id="${id}"
+                   style="width:300px">
+        `;
+    });
+
+    html += `</fieldset>`;
+
+    document.getElementById("questionsContainer").innerHTML += html;
+}
+
+function exportTXT() {
+
+    let output = "";
+
+    quizData.elements.forEach((element, eIndex) => {
+
+        output += element.label + "\n";
+
+        element.questions.forEach((question, qIndex) => {
+
+            const id = `e${eIndex}_q${qIndex}`;
+            const value =
+                document.getElementById(id)?.value || "";
+
+            output += question + "\n";
+            output += value + "\n";
+        });
+
+        output += "\n";
+    });
+
+    const blob = new Blob(
+        [output],
+        { type: "text/plain" }
+    );
+
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "quiz.txt";
+    a.click();
+
+    URL.revokeObjectURL(url);
+}
+</script>
+
+</body>
+</html>
