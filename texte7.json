@@ -1,0 +1,145 @@
+{
+  "text": "LE BARON. - […]\nPerdican entre d'un côté, Camille de l'autre.\nBonjour, mes enfants ; bonjour, ma chère Camille, mon cher Perdican !\nEmbrassez-moi, et embrassez-vous.\n\nPERDICAN. - Bonjour, mon père, ma sœur bien-aimée ! Quel bonheur !\nQue je suis heureux !\n\nCAMILLE. - Mon père et mon cousin, je vous salue.\n\nPERDICAN. Comme te voilà grande, Camille ! Et belle comme le jour !\n\nLE BARON.- Quand as-tu quitté Paris, Perdican ?\n\nPERDICAN.- Mercredi, je crois, ou mardi. Comme te voilà\nmétamorphosée en femme ! Je suis donc un homme, moi ? Il me semble\nque c'est hier que je t'ai vue pas plus haute que cela.\n\nLE BARON.- Vous devez être fatigués ; la route est longue, et il fait\nchaud.\n\nPERDICAN.- Oh ! Mon Dieu, non. Regardez donc, mon père, comme\nCamille est jolie !\n\nLE BARON.- Allons, Camille, embrasse ton cousin.\n\nCAMILLE.- Excusez-moi.\n\nLE BARON.- Un compliment vaut un baiser ; embrasse-la, Perdican.\n\nPERDICAN.- Si ma cousine recule quand je lui tends la main, je vous dirai\nà mon tour : Excusez-moi ; l'amour peut voler un baiser, mais non pas\nl'amitié.\n\nCAMILLE.- L'amitié ni l'amour ne doivent recevoir que ce qu'ils peuvent\nrendre.\n\nLE BARON, à maître Bridaine.- Voilà un commencement de mauvais\naugure, hé ?\n\nMAÎTRE BRIDAINE, au baron.- Trop de pudeur est sans doute un défaut ;\nmais le mariage lève bien des scrupules.\n\nLE BARON, à maître Bridaine.- Je suis choqué, - blessé. Cette réponse\nm'a déplu. - Excusez-moi ! Avez-vous vu qu'elle a fait mine de se signer ?\n-Venez ici que je vous parle.- Cela m'est pénible au dernier point. Ce\nmoment, qui devait m'être si doux, est complètement gâté. - Je suis\nvexé, piqué.- Diable ! Voilà qui est fort mauvais.\n\nMAÎTRE BRIDAINE.- Dites-leur quelques mots ; les voilà qui se tournent\nle dos.",
+  "elements": [
+    {
+      "label": "ma chère Camille, mon cher Perdican",
+      "questions": [
+        "Quel procédé est utilisé dans cette formule ?",
+        "Que montre le Baron à travers ces mots ?"
+      ]
+    },
+    {
+      "label": "ma sœur bien-aimée",
+      "questions": [
+        "À quel champ lexical appartient cette expression ?",
+        "Que révèle-t-elle des sentiments de Perdican ?"
+      ]
+    },
+    {
+      "label": "Quel bonheur ! Que je suis heureux !",
+      "questions": [
+        "Quel procédé est utilisé ici ?",
+        "Que traduisent ces exclamations ?"
+      ]
+    },
+    {
+      "label": "je vous salue",
+      "questions": [
+        "Comment peut-on caractériser cette formule ?",
+        "Que révèle-t-elle de l'attitude de Camille ?"
+      ]
+    },
+    {
+      "label": "belle comme le jour",
+      "questions": [
+        "Comment Perdican présente-t-il Camille ?",
+        "Que montre cette remarque ?"
+      ]
+    },
+    {
+      "label": "métamorphosée en femme",
+      "questions": [
+        "Que constate Perdican ?",
+        "Pourquoi cette remarque est-elle importante ?"
+      ]
+    },
+    {
+      "label": "Il me semble que c'est hier",
+      "questions": [
+        "À quoi Perdican fait-il référence ?",
+        "Que souligne ce souvenir ?"
+      ]
+    },
+    {
+      "label": "Camille est jolie",
+      "questions": [
+        "Pourquoi Perdican parle-t-il de Camille à la troisième personne ?",
+        "Que montre cette remarque ?"
+      ]
+    },
+    {
+      "label": "embrasse ton cousin",
+      "questions": [
+        "Quel mode verbal est employé ?",
+        "Quel est l'objectif du Baron ?"
+      ]
+    },
+    {
+      "label": "Excusez-moi",
+      "questions": [
+        "Comment peut-on qualifier cette réponse ?",
+        "Que révèle-t-elle de l'attitude de Camille ?"
+      ]
+    },
+    {
+      "label": "embrasse-la, Perdican",
+      "questions": [
+        "Pourquoi le Baron insiste-t-il ?",
+        "Quel effet cette insistance produit-elle ?"
+      ]
+    },
+    {
+      "label": "ma cousine",
+      "questions": [
+        "Comment Perdican désigne-t-il désormais Camille ?",
+        "Que montre ce changement ?"
+      ]
+    },
+    {
+      "label": "l'amour peut voler un baiser, mais non pas l'amitié",
+      "questions": [
+        "Quel procédé d'écriture est utilisé ?",
+        "Que laisse entendre Perdican ?"
+      ]
+    },
+    {
+      "label": "L'amitié ni l'amour ne doivent recevoir que ce qu'ils peuvent rendre",
+      "questions": [
+        "Quel temps verbal est employé ?",
+        "Comment interpréter cette réponse de Camille ?"
+      ]
+    },
+    {
+      "label": "le mariage lève bien des scrupules",
+      "questions": [
+        "Pourquoi Bridaine prononce-t-il cette phrase ?",
+        "Que pense-t-il de la situation ?"
+      ]
+    },
+    {
+      "label": "Je suis choqué, blessé",
+      "questions": [
+        "Quel procédé est utilisé ici ?",
+        "Que révèle cette réaction du Baron ?"
+      ]
+    },
+    {
+      "label": "Avez-vous vu qu'elle a fait mine de se signer",
+      "questions": [
+        "Pourquoi le Baron est-il choqué ?",
+        "Comment interprète-t-il le geste de Camille ?"
+      ]
+    },
+    {
+      "label": "Cela m'est pénible au dernier point",
+      "questions": [
+        "Quel procédé d'amplification est utilisé ?",
+        "Quel effet produit cette phrase ?"
+      ]
+    },
+    {
+      "label": "Ce moment, qui devait m'être si doux, est complètement gâté",
+      "questions": [
+        "Sur qui le Baron semble-t-il centrer son attention ?",
+        "Que révèle cette phrase ?"
+      ]
+    },
+    {
+      "label": "se tournent le dos",
+      "questions": [
+        "Pourquoi ce geste est-il symbolique ?",
+        "Que laisse-t-il présager pour la suite de la pièce ?"
+      ]
+    }
+  ]
+}
